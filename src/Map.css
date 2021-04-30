@@ -1,0 +1,47 @@
+.map{
+    height: 462px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px -4px rgba(0,0,0,0.5);
+}
+.map .leaflet-container{
+    height: 455px;
+    border-radius: 20px;
+}
+@media (max-width: 675px) {
+    .map{margin-bottom: 5px}
+}
+.info__container{
+    width: 160px;
+}
+.info__flag{
+    height: 60px;
+    width: 80%;
+    background-size: cover;
+    border-radius: 8px;
+
+}
+.info__flag img{
+    left: 20px;
+    width:100%;
+    border-radius: 5px;
+}
+.info__name{
+text-align: center;
+    font-weight: 800;
+    font-size: 16px;
+}
+.info__newCase{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.info__totalCase,
+.info__totalRecovered,
+.info__totalDeath{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+}
